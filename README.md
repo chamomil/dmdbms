@@ -28,13 +28,12 @@ Topic: cinema network
 2. movie
     <pre>
     - movie_id - BIGINT PRIMARY KEY NOT NULL
-    - genre_id - BIGINT NOT NULL -> genre
     - title - VARCHAR(255) NOT NULL
-    - description - TEXT
+    - description - TEXT NOT NULL
     - rate - INT NOT NULL
-    - country - VARCHAR(255)
-    - year - INT
-    - duration - INTERVAL
+    - country - VARCHAR(255) NOT NULL
+    - year - INT NOT NULL
+    - duration - INTERVAL NOT NULL
     </pre>
 3. genre
     <pre>
@@ -58,7 +57,7 @@ Topic: cinema network
 6. cinema
     <pre>
     - cinema_id - BIGINT PRIMARY KEY NOT NULL
-    - name - VARCHAR(255)
+    - name - VARCHAR(255) NOT NULL
     - address - VARCHAR(255) NOT NULL
     </pre>
 7. seat
@@ -84,7 +83,7 @@ Topic: cinema network
 10. feedback
     <pre>
     - feedback_id - BIGINT PRIMARY KEY NOT NULL
-    - text - TEXT
+    - text - TEXT 
     - rate - INT NOT NULL
     - movie_id - BIGINT NOT NULL -> movie
     - user_id - BIGINT NOT NULL -> user
@@ -96,3 +95,11 @@ Topic: cinema network
     - date - DATE NOT NULL
     - activity - VARCHAR(255) NOT NULL
     </pre>
+12. movie_genre
+    <pre>
+    - movie_id - BIGINT NOT NULL -> movie
+    - genre_id - BIGINT NOT NULL -> genre
+    </pre>
+
+![drawSQL-cinema-export-2023-09-19 (1)](https://github.com/chamomil/dmdbms/assets/93862563/740de227-ead8-4465-8420-374a2bd820bc)
+
