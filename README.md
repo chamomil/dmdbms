@@ -14,9 +14,10 @@ Topic: cinema network
   <li>For admin: Cinemas managment</li>
   <li>For admin: Sessions managment</li>
   <li>For admin: Posters managment</li>
-  <li>For user: buying tickets</li>
-  <li>For user: checking user's tickets</li>
-  <li>For user: leaving feedbacks</li>
+  <li>For user: watching available movies and tickets</li>
+  <li>For authorized user: buying tickets</li>
+  <li>For authorized user: checking user's tickets</li>
+  <li>For authorized user: leaving feedbacks</li>
   
 </ul>
 <h3>Entities</h3>
@@ -37,6 +38,7 @@ Topic: cinema network
     - year - INT NOT NULL
     - duration - INTERVAL NOT NULL
     - poster_id - BIGINT NOT NULL -> poster
+    - genre_id - BIGINT NOT NULL -> genre
     </pre>
 3. genre
     <pre>
@@ -49,6 +51,7 @@ Topic: cinema network
     - hall_id - BIGINT NOT NULL -> hall
     - movie_id - BIGINT NOT NULL -> movie
     - time - DATE NOT NULL
+    - price - INT NOT NULL
     </pre>
 5. hall
     <pre>
@@ -86,7 +89,7 @@ Topic: cinema network
 10. feedback
     <pre>
     - feedback_id - BIGINT PRIMARY KEY NOT NULL
-    - text - TEXT 
+    - text - VARCHAR(255) 
     - rate - INT NOT NULL
     - movie_id - BIGINT NOT NULL -> movie
     - user_id - BIGINT NOT NULL -> user
@@ -98,16 +101,12 @@ Topic: cinema network
     - date - DATE NOT NULL
     - activity - VARCHAR(255) NOT NULL
     </pre>
-12. movie_genre
-    <pre>
-    - movie_id - BIGINT NOT NULL -> movie
-    - genre_id - BIGINT NOT NULL -> genre
-    </pre>
-13. poster
+12. poster
     <pre>
     - poster_id - BIGINT PRIMARY KEY NOT NULL 
     - poster_url - BIGINT NOT NULL
     </pre>
 
-![drawSQL-cinema-export-2023-09-20 (1)](https://github.com/chamomil/dmdbms/assets/93862563/4efd7081-ff47-47f3-9dbd-ecf8d7fbeaf8)
+
+![drawSQL-cinema-export-2023-09-20 (2)](https://github.com/chamomil/dmdbms/assets/93862563/1529e8a6-e478-4534-a901-4df9d5b1aff1)
 
