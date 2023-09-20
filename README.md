@@ -8,14 +8,16 @@ Topic: cinema network
   <li>User managment</li>
   <li>Role system (user, admin)</li>
   <li>Logging user actions</li>
-  <li>Movies managment</li>
-  <li>Sessions managment</li>
-  <li>Halls managment</li>
-  <li>Cinemas managment</li>
-  <li>Sessions managment</li>
+  <li>For admin: Movies managment</li>
+  <li>For admin: Sessions managment</li>
+  <li>For admin: Halls managment</li>
+  <li>For admin: Cinemas managment</li>
+  <li>For admin: Sessions managment</li>
+  <li>For admin: Posters managment</li>
   <li>For user: buying tickets</li>
   <li>For user: checking user's tickets</li>
   <li>For user: leaving feedbacks</li>
+  
 </ul>
 <h3>Entities</h3>
 1. user: 
@@ -107,5 +109,5 @@ Topic: cinema network
     - poster_url - BIGINT NOT NULL
     </pre>
 
+![drawSQL-cinema-export-2023-09-20 (1)](https://github.com/chamomil/dmdbms/assets/93862563/4efd7081-ff47-47f3-9dbd-ecf8d7fbeaf8)
 
-![drawSQL-cinema-export-2023-09-20 (1)](https://github.com/chamomil/dmdbms/assets/93862563/c988a4ef-d3d8-49b2-a9e9-ea3a31b8984c)
