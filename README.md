@@ -34,6 +34,7 @@ Topic: cinema network
     - country - VARCHAR(255) NOT NULL
     - year - INT NOT NULL
     - duration - INTERVAL NOT NULL
+    - poster_id - BIGINT NOT NULL -> poster
     </pre>
 3. genre
     <pre>
@@ -100,6 +101,11 @@ Topic: cinema network
     - movie_id - BIGINT NOT NULL -> movie
     - genre_id - BIGINT NOT NULL -> genre
     </pre>
+13. poster
+    <pre>
+    - poster_id - BIGINT PRIMARY KEY NOT NULL 
+    - poster_url - BIGINT NOT NULL
+    </pre>
 
 
-![drawSQL-cinema-export-2023-09-20](https://github.com/chamomil/dmdbms/assets/93862563/e3b86a61-5125-494e-8e03-22413d7a9b38)
+![drawSQL-cinema-export-2023-09-20 (1)](https://github.com/chamomil/dmdbms/assets/93862563/c988a4ef-d3d8-49b2-a9e9-ea3a31b8984c)
