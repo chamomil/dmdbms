@@ -101,5 +101,5 @@ Topic: cinema network
     - genre_id - BIGINT NOT NULL -> genre
     </pre>
 
-![drawSQL-cinema-export-2023-09-19 (1)](https://github.com/chamomil/dmdbms/assets/93862563/740de227-ead8-4465-8420-374a2bd820bc)
 
+![drawSQL-cinema-export-2023-09-20](https://github.com/chamomil/dmdbms/assets/93862563/e3b86a61-5125-494e-8e03-22413d7a9b38)
