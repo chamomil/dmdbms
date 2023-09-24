@@ -32,7 +32,7 @@ Topic: cinema network
     <pre>
     - movie_id - BIGINT PRIMARY KEY NOT NULL
     - title - VARCHAR(255) NOT NULL
-    - description - TEXT NOT NULL
+    - description - VARCHAR(255) NOT NULL
     - rate - INT NOT NULL
     - country - VARCHAR(255) NOT NULL
     - year - INT NOT NULL
@@ -106,7 +106,5 @@ Topic: cinema network
     - poster_id - BIGINT PRIMARY KEY NOT NULL 
     - poster_url - BIGINT NOT NULL
     </pre>
-
-
-![drawSQL-cinema-export-2023-09-20 (2)](https://github.com/chamomil/dmdbms/assets/93862563/1529e8a6-e478-4534-a901-4df9d5b1aff1)
-
+    
+![drawSQL-cinema-export-2023-09-24](https://github.com/chamomil/dmdbms/assets/93862563/25963ef0-2b4b-4270-9d27-3ee208041749)
