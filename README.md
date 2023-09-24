@@ -57,7 +57,6 @@ Topic: cinema network
     <pre>
     - hall_id - BIGINT PRIMARY KEY NOT NULL
     - name - VARCHAR(255) NOT NULL
-    - seats_amount - INT NOT NULL
     - cinema_id - BIGINT NOT NULL -> cinema
     </pre>
 6. cinema
