@@ -106,4 +106,5 @@ Topic: cinema network
     - poster_url - BIGINT NOT NULL
     </pre>
     
-![drawSQL-cinema-export-2023-09-24](https://github.com/chamomil/dmdbms/assets/93862563/25963ef0-2b4b-4270-9d27-3ee208041749)
+![drawSQL-cinema-export-2023-09-25](https://github.com/chamomil/dmdbms/assets/93862563/c6394315-5c55-4472-822f-77cb2c15dd17)
+
