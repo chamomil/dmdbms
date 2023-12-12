@@ -14,7 +14,7 @@ Topic: cinema network
   <li>For admin: Cinemas managment</li>
   <li>For admin: Sessions managment</li>
   <li>For admin: Posters managment</li>
-  <li>For unauthorized user: watching available movies and tickets</li>
+  <li>For unauthorized user: watching available movies</li>
   <li>For authorized user: buying tickets</li>
   <li>For authorized user: checking user's tickets</li>
   <li>For authorized user: leaving feedbacks</li>
